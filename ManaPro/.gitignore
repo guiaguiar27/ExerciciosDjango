@@ -1,0 +1,16 @@
+# Visual Studio Code
+.vscode/
+.settings/ 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3 
+# Ignore cache and temporary files
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.dbdebug.log
