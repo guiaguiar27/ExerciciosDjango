@@ -12,6 +12,7 @@ The project still under development
 - [x] Setup django project
 - [x] Setup django main aplication
 - [x] Setup docker container for running the project
+- [ ] Setup main templates for each screen
 - [ ] Setup the pipeline
 - [ ] CI/CD
 - [ ] 
