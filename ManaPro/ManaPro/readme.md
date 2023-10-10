@@ -22,7 +22,7 @@ The project is still under development
 All packages and libraries can be accessed in the requirements.txt  
 
 
-## ☕ Using ManaPro
+## ☕ Using ManaPro Virtual environment
 
 To use with the virtual environment
 ```
@@ -34,6 +34,17 @@ To run the development environment - Make sure that every migration is prepared
 python manage.py runserver
 ```
 
+## ☕ Using ManaPro Container 
+- Make sure to have Docker installed in your machine  
+Run the following command: 
+
+```
+docker build -t manapro .
+``` 
+To run the server in development mode: 
+``` 
+docker run -p 8000:8000 manapro
+```
 
 ## 🤝 Author
 Guilherme 
