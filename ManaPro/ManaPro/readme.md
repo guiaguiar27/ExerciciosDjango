@@ -43,7 +43,7 @@ docker build -t manapro .
 ``` 
 To run the server in development mode: 
 ``` 
-docker run -p 8000:8000 manapro
+docker run -p 8000:8000 manapro 
 ```
 
 ## 🤝 Author
